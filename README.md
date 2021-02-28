@@ -1,4 +1,4 @@
-# WildDuck Mail Server
+# WildDuck Mail Server for arm64v8
 
 <p align="center">
   <a href="https://wildduck.email" target="blank"><img src="./graphics/wildduck-type.svg" width="256" alt="Wild Duck" /></a>
