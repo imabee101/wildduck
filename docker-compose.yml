@@ -2,7 +2,7 @@ version: "3.7"
 services:
     wildduck:
         restart: always
-        image: nodemailer/wildduck
+        image: imabee/haraka-wildduck
         ports:
             - "8080:8080"
             - "143:143"
@@ -19,12 +19,12 @@ services:
                 --api.host=0.0.0.0
                 --api.accessToken=PLEASE_CHANGE_ME
     redis:
-        image: redis:alpine
+        image: arm64v8/redis:alpine
         restart: always
         volumes:
             - /data
     mongo:
-        image: mongo
+        image: arm64v8/mongo
         restart: always
         volumes:
             - /data/db
